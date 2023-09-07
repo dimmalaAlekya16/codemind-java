@@ -3,8 +3,8 @@ public class nine
 {
     public static void main(String args[])
     {
-        Scanner sc=new Scanner(System.in);
         int n;
+        Scanner sc=new Scanner(System.in);
         n=sc.nextInt();
         if(n%9==0)
         {
