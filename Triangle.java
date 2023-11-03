@@ -1,18 +1,17 @@
-import java.util.Scanner;
-public class triangle
+import java.util.*;
+public class demo
 {
     public static void main(String args[])
     {
-        int a,b,c;
         Scanner sc=new Scanner(System.in);
-        a=sc.nextInt();
-        b=sc.nextInt();
-        c=sc.nextInt();
-        if(a==b&&b==c)
+        int s1=sc.nextInt();
+        int s2=sc.nextInt();
+        int s3=sc.nextInt();
+        if(s1==s2&&s2==s3)
         {
             System.out.println("Equilateral triangle");
         }
-        else if(a==b||a==c||b==c)
+        else if(s1==s2||s2==s3||s1==s3)
         {
             System.out.println("Isosceles triangle");
         }
